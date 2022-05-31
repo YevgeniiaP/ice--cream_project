@@ -5,32 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Titan+One&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"> 
-                <svg width="px" height="px"></svg>
-                <use href=""></use>
-                icecream</a>
+    <!-- Header block -->
+    <header class="header-block">
+        <div class="header__logo-section">
+            <a href="./index.html" class="logo-icon">
+                <svg width="50px" height="50px"></svg>
+                <use href="./images/icons-svg/symbol-defs.svg#icon-icecream"></use>
+                <p class="logo-title">icecream</p>
+            </a> 
+        </div> 
+        <nav class="header-block__nav">
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>How it’s made?</li>
-                <li>Our products</li>
-                <li>Contact</li>
-                <button>Buy now <svg width="px" height="px"></svg>
-                <use href=""></use></button>
-            </ul>    
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">How it’s made?</a></li>
+                <li><a href="">Our products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>  
         </nav>
+        <button class="header-block__btn" type="button">Buy now 
+            <svg width="4px" height="8px"></svg>
+            <use href="./images/icons-svg/symbol-defs.svg#icon-Vector"></use>
+        </button> 
     </header>
     <main>
+        <!-- Here block -->
         <div class="hero">
             <h1>ice cream made with passion</h1>
             <button>Products</button>
             <button>How it’s made?</button>
-            <svg width="px" height="px"></svg>
-            <use href=""></use>
+            <img src="./images/hero_milk.png" alt="bio-eco-milk" width="188"/>
             <div>
                 <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</article>
                 <svg width="px" height="px"></svg>
@@ -38,8 +50,7 @@
             </div>
             <svg width="px" height="px"></svg>
             <use href=""></use>
-            <svg width="px" height="px"></svg>
-            <use href=""></use>
+            <img src="./images/hero_ice-cream.png" alt="ice-cream" width="236" />
             <ul>
                 <li>
                     <svg width="px" height="px"></svg>
@@ -54,15 +65,14 @@
                     <p>food trucks</p>
                 </li>
             </ul>
-            <svg width="px" height="px"></svg>
-            <use href=""></use>
+            <img src="./images/hero-girl.png" alt="ice-cream" width="293" />
         </div>
+        <!-- Example of products block-->
         <h2>100% natural</h2>
         <h3>products</h3>
         <ul>
             <li>
-                <svg width="px" height="px"></svg>
-                <use href=""></use>
+                <img src="./images/products_ice-cream.png" alt="our_products_ice-cream" width="335" />
                 <h4>ice cream</h4>
                 <svg width="px" height="px"></svg>
                 <use href=""></use>
@@ -71,8 +81,7 @@
                 <use href=""></use>
             </li>
             <li>
-                <svg width="px" height="px"></svg>
-                <use href=""></use>
+                <img src="./images/products_ice-coffee.png" alt="our_products_ice-coffee" width="335" />
                 <h4>ice coffee</h4>
                 <svg width="px" height="px"></svg>
                 <use href=""></use>
@@ -81,8 +90,7 @@
                 <use href=""></use>
             </li>
             <li>
-                <svg width="px" height="px"></svg>
-                <use href=""></use>
+            <img src="./images/products_milkshakes.png" alt="our_products_milkshake" width="335" />
                 <h4>milkshakes</h4>
                 <svg width="px" height="px"></svg>
                 <use href=""></use>
@@ -91,11 +99,10 @@
                 <use href=""></use>
             </li>
         </ul>
-        <div>
+        <!-- Production block -->
             <h2>tradition and love</h2>
             <h3>how it’s made?</h3>
-            <svg width="px" height="px"></svg>
-            <use href=""></use>
+            <img src="./images/production.png" alt="cow-milk" width="516" />
             <p>Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
             Maecenas eleifend erat at justo fringilla.</p>
             <p>Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
@@ -125,65 +132,167 @@
                     <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                 </li>
             </ul>
-            <svg width="px" height="px"></svg>
-            <use href=""></use>
+            <!-- Collage block -->
+            <img src="./images/collage.png" alt="ice-cream_collage" width="1280" />
+            <!-- Reviews block -->
             <article>
                 <ul>
                     <li> 
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
-                        congue. Lorem ipsum primis in nibh vel risus.</p>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <p>Emily, Los Angeles</p>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                    </li>
-                    <li>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc,
-                            accumsan
-                            congue. Lorem ipsum primis in nibh vel risus.</p>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                        <p>Emily, Los Angeles</p>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
-                    </li>
-                    <li>
-                        <svg width="px" height="px"></svg>
-                        <use href=""></use>
+                        <img src="./images/review_1.png" alt="review" width="85" />
                         <svg width="px" height="px"></svg>
                         <use href=""></use>
                         <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
                         <svg width="px" height="px"></svg>
                         <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
                         <p>Emily, Los Angeles</p>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                    </li>
+                    <li>
+                        <img src="./images/review_2.png" alt="review" width="85" />
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <p>Emily, Los Angeles</p>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                    </li>
+                    <li>
+                        <img src="./images/review_3.png" alt="review" width="85" />
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <p>Emily, Los Angeles</p>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
+                        <svg width="px" height="px"></svg>
+                        <use href=""></use>
                         <svg width="px" height="px"></svg>
                         <use href=""></use>
                     </li>
                 </ul>
-               <ul>
-                   <li>
-                       
-                   </li>
-               </ul>
-                <ul>
+             </article>
+                <!-- Contacts block -->
+            <ul>
+                <li>
+                    <p>cafe</p>
                     <li>
-                
+                        <p>Chicago</p>
+                        <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                     </li>
-                </ul>
-            </article>
-        </div>
+                    <li>
+                    <p>Monday - Friday</p> 
+                    <p>06:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday</p>
+                    <p>08:00 AM - 16:00 PM</p>
+                    </li>
+                    <li>
+                    <address>
+                        <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+                        <a href="mailto:noreply@envato.com">noreply@envato.com</a>  
+                    </address>  
+                    </li>
+                </li>
+                <li>
+                    <p>food truck</p>
+                    <li>
+                        <p>Los Angeles</p>
+                        <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </li>
+                    <li>
+                        <p>Monday - Friday</p>
+                        <p>06:00 AM - 10:00 PM</p>
+                        <p>Saturday - Sunday</p>
+                        <p>08:00 AM - 16:00 PM</p>
+                    </li>
+                    <li>
+                        <address>
+                            <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+                            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        </address>
+                    </li>
+                </li>
+                <li>
+                    <p>cafe</p>
+                    <li>
+                        <p>New York</p>
+                        <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </li>
+                    <li>
+                        <p>Monday - Friday</p>
+                        <p>06:00 AM - 10:00 PM</p>
+                        <p>Saturday - Sunday</p>
+                        <p>08:00 AM - 16:00 PM</p>
+                    </li>
+                    <li>
+                        <address>
+                            <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+                            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        </address>
+                    </li>
+                </li>
+            </ul>
+            <button>Our Locations</button>
+                <svg width="px" height="px"></svg>
+                <use href=""></use>
+            <button>Franchise</button>
+                <svg width="px" height="px"></svg>
+                <use href=""></use>
     </main>
     <footer>
-
+        <h2>homemade ice cream made</h2>
+        <h3>with passion</h3>
+        <ul>
+            <li>
+                <a href="https://github.com/"></a>
+                <svg width="" height=""></svg>
+                <use href=""></use>
+            </li>
+            <li>
+                <a href="https://web.telegram.org/"></a>
+                <svg width="" height=""></svg>
+                <use href=""></use>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/"></a>
+                <svg width="" height=""></svg>
+                <use href=""></use>
+            </li>
+        </ul>
+        <p>Feel free to contact</p>
+        <a href="tel:+61(0)383766284">+61 (0) 383 766 284</a>
+        <p>&copy; 2019 - IceCream. All Rights Reserved.</p>
     </footer>
+    
 </body>
 </html>
